@@ -11,7 +11,7 @@ $server = "localhost";
 $server_username = "u235219407_lashes";
 $server_password = "LashesbyAbie1";
 $server_database = "u235219407_lashesabie";
-$home = "https://website.lashesbyabie.shop//";
+$home = "https://main.lashesbyabie.shop//";
 
 $conn = mysqli_connect($server, $server_username, $server_password, $server_database);
 ?>
