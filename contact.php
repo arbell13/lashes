@@ -24,16 +24,16 @@ if(isset($_POST['send'])){
    $select_message = $conn->prepare("SELECT * FROM `message` WHERE name = ? AND email = ? AND number = ? AND message = ?");
    $select_message->execute([$name, $email, $number, $msg]);
 
-   if($select_message->rowCount() > 0){
-      $message[] = 'already sent message!';
-   }else{
+   // if($select_message->rowCount() > 0){
+   //    $message[] = 'already sent message!';
+   // }else{
 
-      $insert_message = $conn->prepare("INSERT INTO `message`(user_id, name, email, number, message) VALUES(?,?,?,?,?)");
-      $insert_message->execute([$user_id, $name, $email, $number, $msg]);
+   //    $insert_message = $conn->prepare("INSERT INTO `message`(user_id, name, email, number, message) VALUES(?,?,?,?,?)");
+   //    $insert_message->execute([$user_id, $name, $email, $number, $msg]);
 
-      $message[] = 'sent message successfully!';
+   //    $message[] = 'sent message successfully!';
 
-   }
+   // }
 
 }
 
@@ -60,23 +60,24 @@ if(isset($_POST['send'])){
 
 <section class="contact">
 
-   <h1 class="title">get in touch</h1>
+   <h1 class="title">Contact</h1>
 
    <form action="salon.php" method="POST">
-      <input type="text" name="name" class="box" required placeholder="enter your name">
-      <input type="email" name="email" class="box" required placeholder="enter your email">
-      <input type="text" name="subject" class="box" required placeholder="EnterSubject">
-      <input type="number" name="number" min="0" class="box" required placeholder="enter your number">
-      <textarea name="msg" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+      <input type="text" name="name" class="box" required placeholder="Enter your name">
+      <input type="email" name="email" class="box" required placeholder="Enter your email">
+      <input type="number" name="number" min="0" class="box" required placeholder="Enter your number">
+      <textarea name="msg" class="box" required placeholder="Enter your message" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" class="btn" name="salon">
    </form>
+   <form>
+      <h1>Address:</h1>
+      <p>Caingin San Rafael Bulacan</p> <br>
+      <h1>Call us:</h1>
+      <p>09326393543</p>
+   </form>
+
 
 </section>
-
-
-
-
-
 
 
 

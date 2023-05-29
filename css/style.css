@@ -133,7 +133,7 @@
 }
 
 .products .box-container .box img{
-   width: 100%;
+   width: 50%;
    margin-bottom: 1rem;
 }
 
@@ -209,33 +209,33 @@
    color:var(--light-color);
 }
 
-/* .p-category{
+.p-category{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
    gap:1.5rem;
    justify-content: center;
    align-items: flex-start;
-} */
+}
 
 .p-category{
    padding-bottom: 0;
 }
 
-/* .p-category a{
-   padding:1.5rem;
+.p-category a{
+   padding:1rem;
    text-align: center;
-   border:var(--border);
+   /* border:var(--border); */
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
    font-size: 2rem;
    text-transform: capitalize;
    color:var(--black);
-} */
+}
 
 .p-category a:hover{
-   background-color: var(--black);
-   color: var(--white);
+   background-color: var(--pink);
+   color: var(--black);
 }
 
 .about .row{
@@ -333,11 +333,18 @@
    max-width: 50rem;
    padding:2rem;
    /* text-align: center; */
-   border:var(--border);
+   /* border:var(--border); */
    background-color: var(--white);
-   /* box-shadow: var(--box-shadow); */
+   box-shadow: var(--box-shadow);
    border-radius: .5rem;
    padding-top: 1rem;
+}
+
+.contact form h1{
+   font-size: 3rem;
+}
+.contact form p{
+   font-size: 2rem;
 }
 
 .contact form .box{
@@ -354,6 +361,10 @@
 .contact form textarea{
    height: 15rem;
    resize: none;
+}
+.contact form .btn{
+   color:var(--white);
+   background-color:rgb(244, 41, 75);
 }
 
 .search-form form{
