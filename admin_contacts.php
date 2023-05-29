@@ -36,6 +36,14 @@ if(isset($_GET['delete'])){
    <link rel="stylesheet" href="css/admin_style.css">
 
 </head>
+<style>
+   body{
+      background-image: linear-gradient(pink, white);
+      background-size: cover;
+      background-repeat: no-repeat  ;
+   }
+
+</style>
 <body>
    
 <?php include 'admin_header.php'; ?>

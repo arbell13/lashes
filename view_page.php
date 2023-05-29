@@ -121,7 +121,30 @@ if(isset($_POST['add_to_cart'])){
       }else{
          echo '<p class="empty">no products added yet!</p>';
       }
-   ?>
+   ?><br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>   <br>
+   <br>
+   <br>
+   <br>
 
 </section>
 

@@ -27,11 +27,38 @@ if(!isset($admin_id)){
    <link rel="stylesheet" href="css/admin_style.css">
 
 </head>
+<style>
+   body{
+      background-image: linear-gradient(pink, white);
+      background-size: cover;
+      background-repeat: no-repeat  ;
+   }
+
+</style>
 <body>
    
 <?php include 'admin_header.php'; ?><br>
 
+<section class="home">
+
+
+
 <h1 class="title">Welcome to the Admin Page!</h1>
+<br><br>
+<br><br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br><br>
+<br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+</section>
+
 
 
 

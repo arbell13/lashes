@@ -80,6 +80,14 @@ if(isset($_POST['update_profile'])){
    <link rel="stylesheet" href="css/components.css">
 
 </head>
+<style>
+   body{
+      background-image: linear-gradient(pink, white);
+      background-size: cover;
+      background-repeat: no-repeat  ;
+   }
+
+</style>
 <body>
    
 <?php include 'header.php'; ?>
@@ -92,21 +100,21 @@ if(isset($_POST['update_profile'])){
       <img src="uploaded_img/<?= $fetch_profile['image']; ?>" alt="">
       <div class="flex">
          <div class="inputBox">
-            <span>username :</span>
+            <span>Username :</span>
             <input type="text" name="name" value="<?= $fetch_profile['name']; ?>" placeholder="update username" required class="box">
-            <span>email :</span>
+            <span>Email :</span>
             <input type="email" name="email" value="<?= $fetch_profile['email']; ?>" placeholder="update email" required class="box">
-            <span>update pic :</span>
+            <span>Update Profile :</span>
             <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box">
             <input type="hidden" name="old_image" value="<?= $fetch_profile['image']; ?>">
          </div>
          <div class="inputBox">
             <input type="hidden" name="old_pass" value="<?= $fetch_profile['password']; ?>">
-            <span>old password :</span>
+            <span>Old password :</span>
             <input type="password" name="update_pass" placeholder="enter previous password" class="box">
-            <span>new password :</span>
+            <span>New password :</span>
             <input type="password" name="new_pass" placeholder="enter new password" class="box">
-            <span>confirm password :</span>
+            <span>Confirm password :</span>
             <input type="password" name="confirm_pass" placeholder="confirm new password" class="box">
          </div>
       </div>

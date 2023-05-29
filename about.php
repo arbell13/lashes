@@ -42,7 +42,7 @@ if(!isset($user_id)){
             Our salon offers a range of services for both hair and lashes, including cuts, color, perms, keratin treatments, lash lifts, lash extensions, and more. We use only high-quality products that are gentle on hair and skin, and we are always up to date with the latest trends and techniques in the beauty industry.
             <br>At Lush Lashes & Hair Salon by Abie Viceo, we pride ourselves on creating a warm and welcoming atmosphere for our clients. Our goal is to make every visit to our salon an enjoyable and relaxing experience, where our clients can unwind and let us take care of their beauty needs.
             </p>
-         <a href="contact.php" class="btn">contact us</a>
+         <a href="contact.php" class="btn" style="background-color:#f67ac4;">contact us</a>
       </div>
 
 
