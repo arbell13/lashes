@@ -57,7 +57,22 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/components.css">
 
 </head>
-<body style="background-image: linear-gradient(pink, white);">
+<style>
+body{
+   background-image: linear-gradient(pink, white);
+}
+.box{
+   box-shadow: 5px 5px gray;
+   border-radius: 50px;
+}
+.btn{
+   border-radius: 50px;
+}
+p{
+   color: black;
+}
+
+</style>
 
 <?php
 
@@ -76,12 +91,13 @@ if(isset($message)){
    
 <section class="form-container">
 
-   <form action="" method="POST">
+   <form action="" method="POST" class="container">
+   <img src="images/logo.png" alt="" height="200" width="280">
       <h3>login now</h3>
       <input type="email" name="email" class="box" placeholder="enter your email" required>
       <input type="password" name="pass" class="box" placeholder="enter your password" required>
       <input type="submit" value="login now" class="btn" name="submit">
-      <p>don't have an account? <a href="register.php">register now</a></p>
+      <p>Don't have an account? <a href="register.php">Register now</a></p>
    </form>
 
 </section>

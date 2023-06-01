@@ -4,11 +4,11 @@
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+//$user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-};
+// if(!isset($user_id)){
+//    header('location:login.php');
+// };
 
 if(isset($_POST['add_to_wishlist'])){
 
@@ -91,7 +91,7 @@ if(isset($_POST['add_to_cart'])){
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body style="background-image: linear-gradient(pink, white);">
+<body style="background-image: linear-gradient(pink, white); height:100vh;">
    
 <?php include 'header.php'; ?>
 

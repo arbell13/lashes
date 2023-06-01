@@ -6,9 +6,9 @@ session_start();
 
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-};
+// if(!isset($user_id)){
+//    header('location:login.php');
+// };
 
 if(isset($_GET['delete'])){
    $delete_id = $_GET['delete'];

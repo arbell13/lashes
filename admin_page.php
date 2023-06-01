@@ -32,6 +32,10 @@ if(!isset($admin_id)){
       background-image: linear-gradient(pink, white);
       background-size: cover;
       background-repeat: no-repeat  ;
+      height: 100vh;
+   }
+   .center{
+      text-align: center;
    }
 
 </style>
@@ -44,18 +48,10 @@ if(!isset($admin_id)){
 
 
 <h1 class="title">Welcome to the Admin Page!</h1>
-<br><br>
-<br><br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br><br>
-<br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div class="center">
+<img src="images/logo.png" alt="" height="500" width="700">
+</div>
+
 
 </section>
 

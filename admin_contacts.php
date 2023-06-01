@@ -41,6 +41,7 @@ if(isset($_GET['delete'])){
       background-image: linear-gradient(pink, white);
       background-size: cover;
       background-repeat: no-repeat  ;
+      height: 100vh;
    }
 
 </style>

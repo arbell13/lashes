@@ -114,7 +114,7 @@
    margin:0 .2rem;
 }
 
-.products .box-container .box .fa-eye{
+.products .box .box .fa-eye{
    position: absolute;
    top:1rem; right:1rem;
    border-radius: .5rem;

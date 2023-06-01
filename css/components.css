@@ -80,7 +80,7 @@ section{
 }
 
 .btn{
-   background-color: var(--green);
+   background-color: var(--pink);
 }
 
 .delete-btn{
@@ -172,9 +172,9 @@ section{
 .form-container form{
    width: 50rem;
    background-color: var(--white);
-   border-radius: .5rem;
-   box-shadow: var(--box-shadow);
-   border:var(--border);
+   border-radius: 5rem;
+   box-shadow: 3px 3px gray;
+   /* border:var(--border); */
    text-align: center;
    padding:2rem;
 }
@@ -204,7 +204,7 @@ section{
 }
 
 .form-container form p a{
-   color:var(--green);
+   color:var(--pink);
 }
 
 .form-container form p a:hover{
