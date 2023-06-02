@@ -6,9 +6,9 @@ session_start();
 
 $user_id = $_SESSION['user_id'];
 
-// if(!isset($user_id)){
-//    header('location:login.php');
-// };
+if(!isset($user_id)){
+   header('location:login.php');
+};
 
 if(isset($_POST['send'])){
 
@@ -62,12 +62,12 @@ if(isset($_POST['send'])){
 
    <h1 class="title">Contact</h1>
 
-   <form action="salon.php" method="POST">
+   <form action="send.php" method="POST">
       <input type="text" name="name" class="box" required placeholder="Enter your name">
       <input type="email" name="email" class="box" required placeholder="Enter your email">
       <input type="number" name="number" min="0" class="box" required placeholder="Enter your number">
       <textarea name="msg" class="box" required placeholder="Enter your message" cols="30" rows="10"></textarea>
-      <input type="submit" value="send message" class="btn" name="salon">
+      <input type="submit" value="send message" class="btn" name="send">
    </form>
    <form>
       <h1>Address:</h1>

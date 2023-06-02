@@ -1,13 +1,13 @@
 <?php
 
-// $db_name = "mysql:host=localhost;dbname=abi";
-// $username = "root";
-// $password = "";
+$db_name = "mysql:host=localhost;dbname=abi";
+$username = "root";
+$password = "";
 
-$db_name = "mysql:host=localhost;dbname=u235219407_lashesabie";
-$username = "u235219407_lashes";
-$password = "LashesbyAbie1";
-$home = "https://abie.lashesbyabie.shop//";
+// $db_name = "mysql:host=localhost;dbname=u235219407_lashesabie";
+// $username = "u235219407_lashes";
+// $password = "LashesbyAbie1";
+// $home = "https://abie.lashesbyabie.shop//";
 
 $conn = new PDO($db_name, $username, $password);
 
