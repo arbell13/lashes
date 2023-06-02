@@ -87,6 +87,8 @@ if(isset($_POST['add_to_cart'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <style>
+   </style>
 
 </head>
 <body style="background-image: linear-gradient(pink, white);">
