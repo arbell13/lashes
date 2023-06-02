@@ -62,13 +62,14 @@ if(isset($_POST['send'])){
 
    <h1 class="title">Contact</h1>
 
-   <form action="send.php" method="POST">
-      <input type="text" name="name" class="box" required placeholder="Enter your name">
-      <input type="email" name="email" class="box" required placeholder="Enter your email">
-      <input type="number" name="number" min="0" class="box" required placeholder="Enter your number">
-      <textarea name="msg" class="box" required placeholder="Enter your message" cols="30" rows="10"></textarea>
+   <form action="" method="POST">
+      <input type="text" name="name" class="box" required placeholder="enter your name">
+      <input type="email" name="email" class="box" required placeholder="enter your email">
+      <input type="number" name="number" min="0" class="box" required placeholder="enter your number">
+      <textarea name="msg" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" class="btn" name="send">
    </form>
+
    <form>
       <h1>Address:</h1>
       <p>Caingin San Rafael Bulacan</p> <br>
